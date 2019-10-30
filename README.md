@@ -48,7 +48,7 @@ Generative Models specify a probability distribution over a dataset of input vec
 
 </ul>
 
-In this nootbook are explained:
+In this [nootbook](https://github.com/A2Amir/Restricted-Boltzmann-Machines/blob/master/RBM.ipynb) are explained:
 1. Example of RBM layers
 2. two phases of the RBM training
 3. How to train the model (contrastive divergence and Gibbs Sampling)
