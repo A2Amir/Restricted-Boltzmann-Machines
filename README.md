@@ -26,8 +26,10 @@ RBM is a generative model. first,see what is different between discriminative an
 
 Discriminative: Consider a classification problem in which we want to learn to distinguish between Sedan cars (y = 1) and SUV cars (y = 0), based on some features of cars. Given a training set, an algorithm like logistic regression tries to find a straight line—that is, a decision boundary like below—that separates the suv and sedan.
 
-<center><img src="./img/2.PNG" alt=" a decision boundar" style="width: 400px;"></center>
 
+<p align="center">
+  <img src="./img/2.PNG" alt=" a decision boundar" style="width: 400px;">
+</p>
 
 <b>Generative:</b> looking at cars, we can build a model of what Sedan cars look like. Then, looking at SUVs, we can build a separate model of what SUV cars look like. Finally, to classify a new car, we can match the new car against the Sedan model, and match it against the SUV model, to see whether the new car looks more like the SUV or Sedan. 
 
