@@ -34,10 +34,8 @@ Discriminative: Consider a classification problem in which we want to learn to d
 Generative Models specify a probability distribution over a dataset of input vectors. We can do both supervise and unsupervised tasks with generative models:
 <ul>
  <li>In an unsupervised task, we try to form a model for P(x), where P is the probability given x as an input vector.</li>
-    <li>In the supervised task, we first form a model for P(x|y), where P is the probability of x given y(the label for x). For example, if y = 0 indicates whether a car is a SUV or y = 1 indicates a car is a Sedan, then p(x|y = 0) models the distribution of SUVs’ features, and p(x|y = 1) models the distribution of Sedans’ features. If we manage to find P(x|y) and P(y), then we can use <code>Bayes rule</code> to estimate P(y|x), because: 
-     
- <center><img src="./img/3.PNG" alt=" Bayes rule" style="width: 400px;"></center>
-
+    <li>In the supervised task, we first form a model for P(x|y), where P is the probability of x given y(the label for x). For example, if y = 0 indicates whether a car is a SUV or y = 1 indicates a car is a Sedan, then p(x|y = 0) models the distribution of SUVs’ features, and p(x|y = 1) models the distribution of Sedans’ features. If we manage to find P(x|y) and P(y), then we can use <code>Bayes rule</code> to estimate P(y|x), because:  </li>
  
- </li>
+  <center><img src="./img/3.PNG" alt=" Bayes rule" style="width: 400px;"></center>
+
 </ul>
