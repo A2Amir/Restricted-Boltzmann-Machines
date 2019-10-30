@@ -35,7 +35,13 @@ Generative Models specify a probability distribution over a dataset of input vec
 <ul>
  <li>In an unsupervised task, we try to form a model for P(x), where P is the probability given x as an input vector.</li>
     <li>In the supervised task, we first form a model for P(x|y), where P is the probability of x given y(the label for x). For example, if y = 0 indicates whether a car is a SUV or y = 1 indicates a car is a Sedan, then p(x|y = 0) models the distribution of SUVs’ features, and p(x|y = 1) models the distribution of Sedans’ features. If we manage to find P(x|y) and P(y), then we can use <code>Bayes rule</code> to estimate P(y|x), because:  </li>
- 
-  <center><img src="./img/3.PNG" alt=" Bayes rule" style="width: 400px;"></center>
-
+ <center><img src="./img/3.PNG" alt=" Bayes rule" style="width: 400px;"></center>
 </ul>
+
+In this nootbook are explained:
+1. Example of RBM layers
+2. two phases of the RBM training
+3. How to train the model (contrastive divergence and Gibbs Sampling)
+4. What can RBM do after training
+5. Using the German Traffic Sign Dataset to practice the usage of RBMs.
+6. Visualize the hidden units 
