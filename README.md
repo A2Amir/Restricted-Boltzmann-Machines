@@ -48,10 +48,11 @@ Generative Models specify a probability distribution over a dataset of input vec
 
 </ul>
 
-In this nootbook are explained:
+In this [nootbook](https://github.com/A2Amir/Restricted-Boltzmann-Machines/blob/master/RBM.ipynb) are explained:
 1. Example of RBM layers
 2. two phases of the RBM training
 3. How to train the model (contrastive divergence and Gibbs Sampling)
 4. What can RBM do after training
-5. Using the German Traffic Sign Dataset to practice the usage of RBMs.
-6. Visualize the hidden units 
+5. How to normalize,Centerize,Standardize Pixel Values
+6. Using the German Traffic Sign Dataset to practice the usage of RBMs.
+7. Visualize the hidden units 
