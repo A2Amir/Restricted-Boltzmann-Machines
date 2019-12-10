@@ -1,5 +1,6 @@
 # Restricted Boltzmann Machines
 
+### In this [repository](https://github.com/A2Amir/Recommendation-System-with-a-Restricted-Boltzmann-Machine-) you can see how Restricted Boltzmann Machines can be used to build a recommendation system.
 
 ### Introduction
 
@@ -56,3 +57,5 @@ In this [nootbook](https://github.com/A2Amir/Restricted-Boltzmann-Machines/blob/
 5. How to normalize,Centerize,Standardize Pixel Values
 6. Using the German Traffic Sign Dataset to practice the usage of RBMs.
 7. Visualize the hidden units 
+
+
