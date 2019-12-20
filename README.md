@@ -15,15 +15,14 @@ RBM is a two-layer neural network. Simply put, RBM takes the input and translate
 
 
  The RBM is useful for:
- 
-    1. Collaborative Filtering
+
+  **1. Collaborative Filtering
     2. Dimensionality reduction
     3. Classification
     3. Regression
     4. Feature learning
     5. Topic modeling 
-    6. Deep Belief Networks
-
+    6. Deep Belief Networks**
 **Is RBM a generative or Discriminative model?**
 
 RBM is a generative model. first,see what is different between discriminative and generative models:
